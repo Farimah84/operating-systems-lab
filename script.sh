@@ -23,3 +23,4 @@ ls # directory blue, file white
 
 echo # Showing files (lists) with details
 ls -l
+
