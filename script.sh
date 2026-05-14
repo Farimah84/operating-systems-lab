@@ -12,14 +12,14 @@ cd # ~ means home user (the current folder)
 # Type of login: $ normal user - "#" root user
 
 cd .. # One step (path) back
-cd/home
-cd/etc
+cd /home
+cd /etc
 
-echo # Finding the current path
-pwc
+echo # Current path
+pwd
 
-echo # Showing the files and folders media in the current path
+echo # Files in current directory (folders and files)
 ls # directory blue, file white
 
-echo # Showing lists with details
-ls-l
+echo # Showing files (lists) with details
+ls -l
