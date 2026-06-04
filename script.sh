@@ -50,5 +50,58 @@ echo # Text Editor
 touch test.txt # blank page
 nano test.txt # creat a file and save data (nano is a text editor)
 cat text.txt # show text content
+vi test.txt
 
 # Session 3
+echo # Opening large files 
+less # opens in a new tab
+
+echo #
+cd /var/log 
+# log for log system
+# dmesg for linux kernel log
+
+echo
+tail dmesg # the last ten lines in a file
+head syslog # the first ten line in a file
+# head syslog -n 20
+
+echo # Live document reading
+tail -f file-name
+
+echo # For permission denied
+sude cat # sude cat boot.log
+
+echo # Extraction file content
+cut
+
+echo # Searching a string in a file
+grep
+# grep root /etc/passwd
+# grep -i root /etc/passwd
+# grep -v root /etc/passwd
+# grep nologin* /etc/passwd (*)
+# grep ^sys /etc/passwd (^)
+# grep [[:digit:]] random.txt
+# grep [[:blank:]]
+
+# cut -d ":" -f 1,3,6 /etc/passwd
+# cat /etc/passwd | cut -d ":" -f 1 | grep "farimah84"
+# passwd holds users. number 1000 is for user (farimah84)
+
+echo # Redirection
+stdout # output saves in a text file
+stdin
+stderr
+ls > test.txt # saves new data
+ls >> test.txt # keep old data and add new one
+
+# sh t.sh 2> test.txt
+# sh t.sh &> test.txt
+
+echo # pipe
+ls -l /user/bash | less
+cat test.txt | grep -i user
+
+echo # Copy a file
+cp # cp test2.txt /home/farimah84/test
