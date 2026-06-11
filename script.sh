@@ -105,3 +105,33 @@ cat test.txt | grep -i user
 
 echo # Copy a file
 cp # cp test2.txt /home/farimah84/test
+
+# Session 4
+echo # Package Manager
+sudo apt update # Or install, remove, upgrade
+# sude apt_get install net.tools -y
+
+apt-chatch pkgnames | grep nano*
+
+echo # Library
+ls /etc/ld.so.conf.d # librarys usually are in etc folder
+
+echo # Find or Locate
+sude find /home -type f -name "test.txt"
+
+echo # Permission
+sudo chown shahriar test.txt # change owner
+sudo chgrp family test.txt # change group
+
+echo # Change Permission
+sudo chmod g+w test2.txt # u-r test2.txt
+sudo chmod 755 test2.txt #rwxr-xr-x
+sudo chmod 644 test2.txt #rw-r--r--
+
+sudo groupadd family
+sudo useradd shahriar
+sudo usermod shahriar -aG family
+
+mkdir # make directory
+rmdir # remove directory
+rm -rf
