@@ -222,10 +222,95 @@ sudo useradd shahriar
 sudo usermod -aG family shahriar
 ```
 
+### Delete User and Group
+
+```bash
+sudo userdel -r username
+sudo groupdel groupname
+```
+
 ### Directories
 
 ```bash
 mkdir dirname
 rmdir dirname
 rm -rf dirname
+```
+
+## Session 5
+
+### awk
+
+`awk` is a text processing tool.
+It works like `cat` but it can process and filter text.
+
+Example:
+
+```bash
+awk '{print $1}' file.txt
+```
+
+---
+
+### Disk Space Usage
+
+Show disk usage:
+
+```bash
+df
+```
+
+Show human-readable sizes:
+
+```bash
+df -h
+```
+
+---
+
+### tee
+
+`tee` saves command output into a file and also displays it.
+
+Example:
+
+```bash
+ls -l | tee file_list.txt
+```
+
+---
+
+### tar
+
+`tar` is used to archive files.
+
+Create archive:
+
+```bash
+tar -cvf archive.tar folder/
+```
+
+Extract archive:
+
+```bash
+tar -xvf archive.tar
+```
+
+---
+
+### tr
+
+`tr` means translate.
+It can convert characters.
+
+Convert lowercase to uppercase:
+
+```bash
+echo "linux" | tr a-z A-Z
+```
+
+Convert uppercase to lowercase:
+
+```bash
+echo "LINUX" | tr A-Z a-z
 ```

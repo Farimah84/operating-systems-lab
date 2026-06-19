@@ -25,3 +25,8 @@ bash --version
 # Session 4
 
 ls /etc/ld.so.conf.d
+
+# Session 5
+
+# Show disk space usage
+df
