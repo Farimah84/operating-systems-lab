@@ -135,3 +135,16 @@ sudo usermod shahriar -aG family
 mkdir # make directory
 rmdir # remove directory
 rm -rf
+
+# Session 5
+awk is like cat
+
+df # show diskspace usage
+
+tee # save new command or data in a text file
+# ls -l | tee file_list.txt
+
+tar # zip files
+
+tr # translate -> convert upper and lower words
+
