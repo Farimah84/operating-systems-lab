@@ -147,4 +147,3 @@ tee # save new command or data in a text file
 tar # zip files
 
 tr # translate -> convert upper and lower words
-
