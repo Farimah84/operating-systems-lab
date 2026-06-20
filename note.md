@@ -202,8 +202,8 @@ sudo find /home -type f -name "test.txt"
 ### Ownership
 
 ```bash
-sudo chown shahriar test.txt
-sudo chgrp family test.txt
+sudo chown username test.txt
+sudo chgrp groupname test.txt
 ```
 
 ### Permissions
@@ -217,9 +217,9 @@ sudo chmod 644 test2.txt
 ### Users and Groups
 
 ```bash
-sudo groupadd family
-sudo useradd shahriar
-sudo usermod -aG family shahriar
+sudo groupadd groupname
+sudo useradd username
+sudo usermod -aG groupname username
 ```
 
 ### Delete User and Group
