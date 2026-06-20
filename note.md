@@ -143,6 +143,7 @@ grep -i root /etc/passwd
 grep -v root /etc/passwd
 grep ^sys /etc/passwd
 grep [[:digit:]] random.txt
+grep groupname /etc/group
 
 cut -d ":" -f 1,3,6 /etc/passwd
 ```
