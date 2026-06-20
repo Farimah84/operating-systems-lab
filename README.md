@@ -186,5 +186,8 @@ Through these exercises, the following concepts were practiced:
 ## Author
 
 Farimah Nourpanah
+- [Email](farimahnourpanah@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/farimah-nourpanah)
+---
 
-Operating Systems Laboratory Course
+**Operating Systems Laboratory Course**
